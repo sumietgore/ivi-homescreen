@@ -6,10 +6,7 @@ on:
   release:
     types: [ published, created, edited ]
   workflow_dispatch:
-  schedule:
-    # daily
-    - cron:  '0 0 * * *'
-
+  
 env:
   COMPONENT: ivi-homescreen
 
